@@ -62,32 +62,32 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              to="/about"
+              to="/event"
               className="block text-gray-700 hover:text-purple-600"
               onClick={toggleMenu}
             >
-              About
+              Event
             </Link>
             <Link
-              to="/services"
+              to="/resources"
               className="block text-gray-700 hover:text-purple-600"
               onClick={toggleMenu}
             >
-              Services
+              Resources
             </Link>
             <Link
-              to="/contact"
+              to="/booking"
               className="block text-gray-700 hover:text-purple-600"
               onClick={toggleMenu}
             >
-              Contact
+              Bookings
             </Link>
             <Link
-              to="/contact"
+              to="/bookings"
               className="block bg-purple-600 text-white px-4 py-2 rounded-lg text-center hover:bg-purple-700"
               onClick={toggleMenu}
             >
-              Get Started
+              Invite Dola
             </Link>
           </div>
         )}
