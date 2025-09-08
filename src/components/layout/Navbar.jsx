@@ -27,7 +27,7 @@ const Navbar = () => {
             <Link to="/resources" className="hover:text-purple-600 transition">
               Resources
             </Link>
-            <Link to="/booking" className="hover:text-purple-600 transition">
+             <Link to="/booking" className="hover:text-purple-600 transition">
               Bookings
             </Link>
           </nav>
