@@ -29,7 +29,7 @@ const Home = () => {
                 Dola Nancy Bankole | Where Faith Meets Healing
               </h1>
               <p className="text-lg text-gray-600 mb-8">
-                Dola supports families, teens, and communities through
+                Dola Nancy Bankole supports families, teens, and communities through
                 counseling, art therapy, and faith-based guidance. With
                 compassion and wisdom, she helps individuals navigate life's
                 challenges while fostering wellness, integrity, and love.
@@ -164,7 +164,7 @@ const Home = () => {
               Workshops & Programs
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Dola’s workshops and programs are designed as practical steps on
+              Dola Nancy Bankole workshops and programs are designed as practical steps on
               your journey to emotional and spiritual wellness. Each session
               creates space for reflection, connection, and breakthrough whether
               you’re navigating parenting, mental health, or personal
@@ -232,7 +232,7 @@ const Home = () => {
         <div className="px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Explore the Transformative Power of Dola's Books
+              Explore the Transformative Power of Dola Nancy Bankole Books
             </h2>
           </div>
           {/* Book Display */}
@@ -246,7 +246,7 @@ const Home = () => {
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Healing Power
               </h3>
-              <p className="text-sm text-gray-600 mb-4">By Dola Bankole</p>
+              <p className="text-sm text-gray-600 mb-4">By Dola Nancy Bankole</p>
               <p className="text-gray-700 mb-6">
                 Discover how faith, wisdom, and practical guidance can bring
                 healing, restoration, and renewed hope to every step of your

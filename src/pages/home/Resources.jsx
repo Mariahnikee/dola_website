@@ -6,12 +6,12 @@ function Resources() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Explore the Transformative Power of Dola’s Books & Tools
+            Explore the Transformative Power of Dola Nancy Bankole Books & Tools
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
             Dive into a carefully curated collection of books and practical
             tools designed to inspire, educate, and empower you. From insightful
-            guides to actionable resources, Dola provides everything you need to
+            guides to actionable resources, Dola Nancy Bankole provides everything you need to
             unlock your potential and achieve meaningful growth.
           </p>
         </div>

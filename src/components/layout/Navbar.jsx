@@ -21,11 +21,11 @@ const Navbar = () => {
             <Link to="/" className="hover:text-purple-600 transition">
               Home
             </Link>
-            <Link to="/event" className="hover:text-purple-600 transition">
-              Event
-            </Link>
-            <Link to="/resources" className="hover:text-purple-600 transition">
+             <Link to="/resources" className="hover:text-purple-600 transition">
               Resources
+            </Link>
+            <Link to="/event" className="hover:text-purple-600 transition">
+              Mission & Events
             </Link>
              <Link to="/booking" className="hover:text-purple-600 transition">
               Bookings
@@ -62,18 +62,18 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              to="/event"
-              className="block text-gray-700 hover:text-purple-600"
-              onClick={toggleMenu}
-            >
-              Event
-            </Link>
-            <Link
               to="/resources"
               className="block text-gray-700 hover:text-purple-600"
               onClick={toggleMenu}
             >
               Resources
+            </Link>
+             <Link
+              to="/event"
+              className="block text-gray-700 hover:text-purple-600"
+              onClick={toggleMenu}
+            >
+              Mission & Events
             </Link>
             <Link
               to="/booking"
