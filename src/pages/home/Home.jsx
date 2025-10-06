@@ -20,155 +20,185 @@ const missionsImage = "/holdhands.png";
 const Home = () => {
   return (
     <div>
-      {/* hero section */}
-      <section className="bg-gradient-to-r from-purple-100 to-pink-100 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col lg:flex-row items-center">
-            <div className="lg:w-1/2 lg:pr-12 mb-10 lg:mb-0">
-              <h1 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
-                Dola Nancy Bankole | Where Faith Meets Healing
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-purple-100 to-pink-100 py-20 lg:py-20 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          {/* reverse only on large screen */}
+          <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 lg:gap-20">
+            {/* Left Content */}
+            <div className="lg:w-1/2 text-center lg:text-left space-y-6 order-1 lg:order-none">
+              <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+                Dola Nancy Bankole <br />
+                <span className="text-purple-700">
+                  Where Faith Meets Healing
+                </span>
               </h1>
-              <p className="text-lg text-gray-600 mb-8">
-                Dola Nancy Bankole supports families, teens, and communities through
-                counseling, art therapy, and faith-based guidance. With
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Dola Nancy Bankole supports families, teens, and communities
+                through counseling, art therapy, and faith-based guidance. With
                 compassion and wisdom, she helps individuals navigate life's
                 challenges while fostering wellness, integrity, and love.
               </p>
-             <div className="flex flex-col sm:flex-row gap-4">
-  <Link
-    to="/booking"
-    className="bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-800 transition-colors flex items-center justify-center"
-  >
-    Schedule Consultation
-    <ArrowRight className="ml-2 h-5 w-5" />
-  </Link>
-</div>
-            </div>
 
-            <div className="lg:w-1/2 flex justify-center">
-              <div className="relative">
-                <div className="  p-8">
-                  <div className="w-90 h-90 mx-auto mb-4 overflow-hidden rounded-[8px]">
-                    <img
-                      src="/profilepic.png"
-                      alt="Dola Nancy Bankole - Professional Counselor"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-2">
+                <Link
+                  to="/booking"
+                  className="bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-800 transition-colors flex items-center justify-center"
+                >
+                  Schedule Consultation
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
+                <Link
+                  to="/resources"
+                  className="border-2 border-purple-700 text-purple-700 px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 hover:text-white transition-colors flex items-center justify-center"
+                >
+                  Explore Resources
+                </Link>
               </div>
             </div>
 
-            {/*    <div className="lg:w-1/2">
-                  <div className="relative">
- className="w-80 h-96 mx-auto mb-4 overflow-hidden rounded-lg"
-                      <div className="w-90 h-90 mx-auto mb-4 overflow-hidden">
-                        <img 
-                          src="/profilepic.png" 
-                          alt="Dola Nancy Bankole - Professional Counselor" 
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
+            {/* Right Content (Image) */}
+            <div className="lg:w-1/2 flex justify-center lg:justify-end items-center order-2 lg:order-none relative">
+              <div className="relative w-60 h-60 md:w-80 md:h-80">
+                {/* glowing halo background */}
+                <div className="absolute inset-0 bg-gradient-to-tr from-purple-300 via-pink-200 to-yellow-100 rounded-full blur-3xl opacity-50 animate-pulse"></div>
 
-                  </div>
-                </div> */}
+                {/* circular image with slight tilt and hover animation */}
+                <img
+                  src="/pppp.png"
+                  alt="Dola Nancy Bankole - Professional Counselor"
+                  className="relative z-10 w-full h-full object-cover rounded-full shadow-2xl transform hover:scale-105 hover:rotate-1 transition-transform duration-500"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Services Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Explore Our Comprehensive Counseling Services
-            </h2>
-            <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
-              Discover how faith-based counseling can transform your life
-              through our specialized services designed to meet your unique
-              needs and circumstances.
-            </p>
-          </div>
+      {/* Services Section */}
+<section className="py-20 bg-gradient-to-b from-white to-purple-50">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    {/* Section Header */}
+    <div className="text-center mb-16">
+      <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
+        Explore Our Comprehensive Counseling Services
+      </h2>
+      <p className="text-purple-700 font-medium mb-4">
+        Healing hearts, restoring hope, and nurturing wholeness.
+      </p>
+      <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
+        Discover how faith-based counseling can transform your life through 
+        our specialized services designed to meet your unique needs 
+        and circumstances.
+      </p>
+    </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            <div className="bg-white border border-gray-100 rounded-lg p-6 sm:p-8 hover:shadow-lg transition-shadow">
-              <div className="w-full h-40 sm:h-48 mb-4 overflow-hidden">
-                <img
-                  src="/img4.png"
-                  alt="Family & Marriage Counseling"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">
-                Family & Marriage Counseling
-              </h3>
-              <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">
-                Rebuild connection, improve communication, and heal together.
-              </p>
-              <button className="text-purple-700 font-semibold flex items-center hover:text-purple-800 transition-colors text-sm sm:text-base">
-                Learn More
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </button>
-            </div>
-
-            <div className="bg-white border border-gray-100 rounded-lg p-6 sm:p-8 hover:shadow-lg transition-shadow">
-              <div className="w-full h-40 sm:h-48 mb-4 overflow-hidden">
-                <img
-                  src="/img3.png"
-                  alt="Mental Health Counseling"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">
-                Mental Health Counseling
-              </h3>
-              <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">
-                Navigate anxiety, trauma, depression, and more with compassion
-                and clarity.
-              </p>
-              <button className="text-purple-700 font-semibold flex items-center hover:text-purple-800 transition-colors text-sm sm:text-base">
-                Learn More
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </button>
-            </div>
-
-            <div className="bg-white border border-gray-100 rounded-lg p-6 sm:p-8 hover:shadow-lg transition-shadow sm:col-span-2 lg:col-span-1">
-              <div className="w-full h-40 sm:h-48 mb-4 overflow-hidden">
-                <img
-                  src="/img5.png"
-                  alt="Children, Teen & Youth Counseling"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">
-                Children, Teen & Youth Counseling
-              </h3>
-              <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">
-                Guiding young people through challenges while strengthening
-                their foundation.
-              </p>
-              <button className="text-purple-700 font-semibold flex items-center hover:text-purple-800 transition-colors text-sm sm:text-base">
-                Learn More
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </button>
-            </div>
-          </div>
+    {/* Service Cards */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      {/* Family & Marriage Counseling */}
+      <div className="bg-white border border-gray-100 rounded-2xl p-8 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+        <div className="w-full h-48 mb-5 overflow-hidden rounded-xl">
+          <img
+            src="/img4.png"
+            alt="Family & Marriage Counseling"
+            className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+          />
         </div>
-      </section>
+        <div className="flex items-center mb-3">
+          <Heart className="h-5 w-5 text-purple-600 mr-2" />
+          <h3 className="text-xl font-semibold text-gray-900">
+            Family & Marriage Counseling
+          </h3>
+        </div>
+        <p className="text-gray-600 mb-6 leading-relaxed">
+          Rebuild connection, improve communication, and heal together 
+          through faith-centered relationship guidance.
+        </p>
+        <Link
+          to="/booking"
+          className="text-purple-700 font-semibold hover:underline flex items-center"
+        >
+          Book a Session
+          <ArrowRight className="ml-2 h-4 w-4" />
+        </Link>
+      </div>
+
+      {/* Mental Health Counseling */}
+      <div className="bg-white border border-gray-100 rounded-2xl p-8 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+        <div className="w-full h-48 mb-5 overflow-hidden rounded-xl">
+          <img
+            src="/img3.png"
+            alt="Mental Health Counseling"
+            className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+          />
+        </div>
+        <div className="flex items-center mb-3">
+          <Star className="h-5 w-5 text-purple-600 mr-2" />
+          <h3 className="text-xl font-semibold text-gray-900">
+            Mental Health Counseling
+          </h3>
+        </div>
+        <p className="text-gray-600 mb-6 leading-relaxed">
+          Navigate anxiety, trauma, depression, and emotional struggles 
+          with compassion, prayer, and clarity.
+        </p>
+        <Link
+          to="/booking"
+          className="text-purple-700 font-semibold hover:underline flex items-center"
+        >
+          Book a Session
+          <ArrowRight className="ml-2 h-4 w-4" />
+        </Link>
+      </div>
+
+      {/* Youth & Teen Counseling */}
+      <div className="bg-white border border-gray-100 rounded-2xl p-8 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+        <div className="w-full h-48 mb-5 overflow-hidden rounded-xl">
+          <img
+            src="/img5.png"
+            alt="Children, Teen & Youth Counseling"
+            className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+          />
+        </div>
+        <div className="flex items-center mb-3">
+          <Users className="h-5 w-5 text-purple-600 mr-2" />
+          <h3 className="text-xl font-semibold text-gray-900">
+            Children, Teen & Youth Counseling
+          </h3>
+        </div>
+        <p className="text-gray-600 mb-6 leading-relaxed">
+          Guiding young people through identity, confidence, and 
+          purpose with Christ-centered wisdom.
+        </p>
+        <Link
+          to="/booking"
+          className="text-purple-700 font-semibold hover:underline flex items-center"
+        >
+          Book a Session
+          <ArrowRight className="ml-2 h-4 w-4" />
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Workshops & Programs Section */}
       <section className="py-16 bg-[#FAFAFA]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-2">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 */}
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
               Workshops & Programs
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Dola Nancy Bankole workshops and programs are designed as practical steps on
-              your journey to emotional and spiritual wellness. Each session
-              creates space for reflection, connection, and breakthrough whether
-              you’re navigating parenting, mental health, or personal
-              transformation.
+              Dola Nancy Bankole workshops and programs are designed as
+              practical steps on your journey to emotional and spiritual
+              wellness. Each session creates space for reflection, connection,
+              and breakthrough whether you’re navigating parenting, mental
+              health, or personal transformation.
             </p>
           </div>
 
@@ -246,7 +276,9 @@ const Home = () => {
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Healing Power
               </h3>
-              <p className="text-sm text-gray-600 mb-4">By Dola Nancy Bankole</p>
+              <p className="text-sm text-gray-600 mb-4">
+                By Dola Nancy Bankole
+              </p>
               <p className="text-gray-700 mb-6">
                 Discover how faith, wisdom, and practical guidance can bring
                 healing, restoration, and renewed hope to every step of your
@@ -301,13 +333,13 @@ const Home = () => {
                 </li>
               </ul>
               <div className="mt-8 flex justify-center">
-  <Link
-    to="/event"
-    className="bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-800 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500"
-  >
-    View All Events
-  </Link>
-</div>
+                <Link
+                  to="/event"
+                  className="bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-800 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500"
+                >
+                  View All Events
+                </Link>
+              </div>
             </div>
 
             {/* Women & Ward Mission Card */}
@@ -329,14 +361,14 @@ const Home = () => {
                   <span>Partner with us for global impact.</span>
                 </li>
               </ul>
-             <div className="mt-8 flex justify-center">
-  <Link
-    to="/event"
-    className="bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-800 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500"
-  >
-    Learn More
-  </Link>
-</div>
+              <div className="mt-8 flex justify-center">
+                <Link
+                  to="/event"
+                  className="bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-800 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500"
+                >
+                  Learn More
+                </Link>
+              </div>
             </div>
           </div>
         </div>
