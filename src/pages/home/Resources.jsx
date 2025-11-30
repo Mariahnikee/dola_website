@@ -64,24 +64,23 @@ function Resources() {
             </div>
           </a>
           <a
-            href="https://a.co/d/11p91tA"
+            href="https://www.amazon.com/ILLUSTRATED-YORUBA-ENGLISH-EDUCATIONAL-VIRTUES-CHILDREN-ebook/dp/B0C5S7285Z/ref=sr_1_5?dib=eyJ2IjoiMSJ9.4tPl_-alPi9i-Dd02y-ioUJpG8CP1TQdJq7SpiTJ8ynGjHj071QN20LucGBJIEps.TqAu2y2vETdlKsCei_QemSTy60sLl97LzyglU0H4v80&dib_tag=se&qid=1760546286&refinements=p_27%3ADola+Nancy+Bankole&s=books&sr=1-5&text=Dola+Nancy+Bankole"
             target="_blank"
             rel="noopener noreferrer"
             className="group block bg-white border border-gray-100 rounded-lg p-6 sm:p-8 hover:shadow-lg transition-shadow"
           >
             <div className="w-full mb-4 overflow-hidden">
               <img
-                src="/the_seed.png"
+                src="/ede.jpg"
                 alt="Family & Marriage Counseling"
                 className="w-full h-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </div>
             <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3 group-hover:text-purple-700 transition-colors duration-300">
-              The S.E.E.D. Strategy
+             ILLUSTRATED YORUBA-ENGLISH EDUCATIONAL AND VIRTUES BOOKLET FOR CHILDREN
             </h3>
             <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">
-              Revolutionise Your Child's Future With These Proven Tips &
-              Parental Pointers
+              This book is an excellent educational and virtue-developing booklet
             </p>
             {/* Button*/}
             <div className="inline-flex items-center border-2 border-gray-200 text-black px-8 py-2 rounded-lg font-semibold hover:bg-purple-800 hover:text-white transition-colors text-sm sm:text-base">
