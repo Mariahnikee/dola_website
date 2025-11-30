@@ -158,7 +158,7 @@ const Navbar = () => {
             </nav>
 
             {/* Mobile CTA Section */}
-            <div className="border-t border-gray-200 px-6 py-6 space-y-3 bg-gray-50">
+            <div className="border-t border-gray-200 px-6 py-24 space-y-3 bg-gray-50">
               <a
                 href="tel:+17133916468"
                 className="flex items-center justify-center gap-2 w-full bg-white border-2 border-purple-600 text-purple-600 font-semibold px-6 py-3 rounded-lg hover:bg-purple-50 transition-all duration-300"
